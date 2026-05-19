@@ -26,28 +26,28 @@ Built using Python, Streamlit, LangChain, and modern LLM technologies.
 
 ### 1. Gemini Model
 
-**File:** `gemini_rag.py`
+**File:** `gemini_rag_chatbot.py`
 
 Uses Google Gemini API for generating responses from document context.
 
 Run command:
 
 ```bash
-streamlit run gemini_rag.py
+streamlit run gemini_rag_chatbot.py
 ```
 
 ---
 
 ### 2. LLaMA Model
 
-**File:** `LLama.py`
+**File:** `Local_rag_chatbot.py`
 
 Uses LLaMA-based architecture for document question answering.
 
 Run command:
 
 ```bash
-streamlit run LLama.py
+streamlit run Local_rag_chatbot.py
 ```
 
 ---
@@ -69,8 +69,8 @@ streamlit run LLama.py
 ```bash
 Ai_RAG_ChatBot/
 │
-├── gemini_rag.py
-├── LLama.py
+├── gemini_rag_chatbot.py
+├── Local_rag_chatbot.py
 ├── README.md
 ├── .gitignore
 └── requirements.txt
@@ -115,13 +115,13 @@ GOOGLE_API_KEY=your_api_key
 For Gemini version:
 
 ```bash
-streamlit run gemini_rag.py
+streamlit run gemini_rag_chatbot.py
 ```
 
 For LLaMA version:
 
 ```bash
-streamlit run LLama.py
+streamlit run Local_rag_chatbot.py
 ```
 
 ---
